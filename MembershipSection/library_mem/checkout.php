@@ -1,7 +1,7 @@
 <?php
 require __DIR__ . '/vendor/autoload.php';
 
-$stripe_secret_key = 'sk_test_51PIMdPDwJDfpiSSr04muva7l4XmHisSOvB1AKimDn25sT7tkMB5TRWvAt7we5h3xMMpL6zjAAas2J7ktFAoERJ4600kydtwfzm';
+$stripe_secret_key = '';
 \Stripe\Stripe::setApiKey($stripe_secret_key);
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
